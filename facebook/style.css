@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* this is header  */
+.heder-div{
+    border-bottom: 1px solid
+    #ddd;
+    padding: 6px 0;
+    margin: auto;
+    position: relative;
+    box-shadow: 6px 1px 6px 2px
+    rgb(148, 139, 139);
+
+
+}
+.margin-dibo{
+    margin-bottom: 4px;
+}
+.logo img{
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+   
+}
+.search-box{
+    margin-top: 14px;
+    position: absolute;
+    right: 81px;
+    top: 0;
+}
+.from-coltrol {
+    padding: 7px 39px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(247, 243, 243);
+    background-image: url(../facebook/icon/download\ \(1\).png);
+    background-size: 28px;
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+.home-icon {
+    margin-left: 96px;
+    
+    word-spacing: 76px;
+}
+.home-icon img {
+    width: 25px;
+    height: 25px;
+    margin-top: 14px;
+}
+.profile-pic img{
+    vertical-align: middle;
+width: 50px;
+height: 50px;
+border-radius: 50%;
+
+}
+.profile-pic {
+    display: inline-block;
+    margin-left: 16px;
+}
+.profile-pic .plus-icon {
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    background-color: rgb(233, 225, 225);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 34px;
+    margin-left: 14px;
+}
+.profile-pic .plus-icon img {
+    height: 20px;
+    width: 20px;
+}
+/* this is section */
+.section{
+   background-color: rgb(236, 235, 235);
+}
+.my-img{
+    display:block;
+    padding: 8px 0;
+}
+.my-img img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.my-img p{
+    display: inline-block;
+}
+.image-small{
+    height: 20px;
+    width: 20px;
+}
+hr{
+    width: 70%;
+    color: rgb(202, 87, 87);
+}
+
+/* this is story section */
+.story {
+    width: 95px;
+    height: 155px;
+   background-image: url(../facebook/image/profile.jpg);
+   background-repeat: no-repeat;
+   background-position: top;
+   background-size: contain;
+    border-radius: 10px;
+    display: inline-block;
+    border: 1px solid #ddd;
+    background-color: white;
+}
+.story img {
+    width: 30px;
+    height: 30px;
+    border: 2px solid whitesmoke;
+    border-radius: 50%;
+    
+    margin-top: 82px;
+    margin-left: 30px;
+}
+.story p{
+    text-align: center;
+    font-weight: bolder;
+
+}
+.story-noyan{
+    width: 95px;
+    height: 155px;
+   background-image: url(../facebook/image/my\ sct/noyan.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+    border-radius: 10px;
+    display: inline-block;
+    border: 1px solid #ddd;
+    position: relative;
+}
+.story-noyan img {
+    width: 30px;
+    height: 30px;
+    border: 3px solid blue;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 9px;
+}
+.story-noyan p {
+    margin-top: 111px;
+    color: white;
+    font-weight: revert;
+    margin-left: 0px;
+    text-align: center;
+}
+.story-shohag{
+    width: 95px;
+    height: 155px;
+   background-image: url(../facebook/image/my\ sct/shohag2.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+    border-radius: 10px;
+    display: inline-block;
+    border: 1px solid #ddd;
+    position: relative;
+}
+.story-shohag img{
+    width: 30px;
+    height: 30px;
+    border: 3px solid blue;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 9px;
+}
+.story-shohag p{
+    margin-top: 111px;
+    color: white;
+    font-weight: revert;
+    margin-left: 0px;
+    text-align: center;
+}
+.story-mitu{
+    width: 95px;
+    height: 155px;
+   background-image: url(../facebook/image/my\ sct/mitu1.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+    border-radius: 10px;
+    display: inline-block;
+    border: 1px solid #ddd;
+    position: relative;
+}
+.story-mitu img{
+    width: 30px;
+    height: 30px;
+    border: 3px solid blue;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 9px;
+}
+.story-mitu p{
+    margin-top: 111px;
+    color: white;
+    font-weight: revert;
+    margin-left: 0px;
+    text-align: center;
+}
+.story-afran{
+    width: 95px;
+    height: 155px;
+   background-image: url(../facebook/image/my\ sct/afran.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+    border-radius: 10px;
+    display: inline-block;
+    border: 1px solid #ddd;
+    position: relative;
+}
+.story-afran img{
+    width: 30px;
+    height: 30px;
+    border: 3px solid blue;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 9px;
+}
+.story-afran p{
+    margin-top: 111px;
+    color: white;
+    font-weight: revert;
+    margin-left: 0px;
+    text-align: center;
+}
+.margin-left{
+    margin-left: 55px;
+    word-spacing: 5px;
+}
+.margin-top-dibo{
+    margin-top: 15px;
+}
+
+/* this is post section */
+.post-section {
+    width: 509px;
+    height: 105px;
+    background-color: rgb(252, 248, 248);
+    border-radius: 6px;
+    box-shadow: 0px 1px 3px 1px rgb(143, 135, 135);
+    margin-top: 10px;
+   display: inline-block;
+}
+.post-section img {
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+    .from-post {
+        border-radius: 15px;
+        border: none;
+        background-color: rgb(224, 216, 216);
+        padding: 5px 20px;
+        margin-top: 12px;
+        width: 432px;
+    }
+    .post-input {
+        margin-top: -44px;
+        margin-left: 58px;
+    }
+    .post-section hr{
+        width: 100%;
+    }
+    .post-icon-bar {
+        display: -webkit-inline-box;
+    }
+    .post-icon-bar img {
+        height: 20px;
+        width: 20px;
+        display: inline-block;
+        margin-top: -25px;
+        margin-left: 53px;
+    }
+    .post-icon-bar p {
+        margin-left: 9px;
+        margin-top: -12px;
+    }
+
+    .public-post{
+        width: 509px;
+    height: 400px;
+    background-color: rgb(252, 248, 248);
+    border-radius: 6px;
+    box-shadow: 0px 1px 3px 1px rgb(143, 135, 135);
+    margin-top: 10px;
+   display: inline-block;
+    } 
+    .rajib-p-pic {
+        display: -webkit-inline-box;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+
+    .rajib-p-pic img{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+    .rajib-p-pic p {
+        margin-top: 10px;
+        margin-left: 12px;
+    }
+    .public-pic img{
+        max-width: 100%;
+    }
+
+
+    /* my page info */
+    .my-pages {
+        margin-top: 19px;
+    }
+    .nil-kham {
+        display: block ruby;
+    }
+
+    .nil-kham img {
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
+    }
+    .notification {
+        display: block ruby;
+        margin-left: 19px;
+        margin-top: 7px;
+    }
+    .notification img{
+        height: 15px;
+        width: 15px;
+        border-radius: 50%;  
+    }
+    .b-b{
+        border-bottom: 3px solid #ddd;
+    }
+    .birthday-pic img{
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
+    }
+    .birthday-pic{
+        display: -webkit-inline-box;
+    }
+    
+element {
+
+}
+.brithday {
+
+    border-bottom: 3px solid #ddd;
+
+}
+.contact-pic {
+    display: block ruby;
+    padding: 7px 0;
+}
+.contact-pic img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
